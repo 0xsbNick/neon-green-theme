@@ -1,4 +1,4 @@
-# Neon Green Theme for Emacs
+# Neon Green Theme
 
 ## Description
 Neon Green is a vibrant green theme for Emacs, designed to be easy on the eyes. It provides a variety of colors for different elements to enhance readability and improve the overall coding experience.
