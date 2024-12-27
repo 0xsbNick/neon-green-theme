@@ -2,7 +2,7 @@
 ;; Copyright (C) 2024 x0sbNick
 ;; Author: x0sbNick
 ;; Version: 1.0
-;; Package-Requires: ((emacs "24.1"))
+;; Package-Requires: ((emacs "29"))
 ;; Keywords: themes
 ;; URL: https://github.com/0xsbNick/neon-green-theme
 ;;; Commentary:
@@ -75,7 +75,7 @@
    `(font-lock-preprocessor-face ((,class (,class :foreground ,mint-green))))
    `(font-lock-warning-face ((,class (:foreground ,bright-red))))
 
-   ;; indent-guide
+    ;;indent-guide
    `(indent-guide-face ((,class (:foreground ,purple))))
 
    ;; rainbow delimiters
@@ -88,7 +88,7 @@
    `(rainbow-delimiters-unmatched-face ((,class :foreground ,bright-red)))
 
 
-      ;;;;; Org
+    ;;Org
    `(org-level-1   ((t (:extend nil :background ,deep-blue :foreground ,fg :weight bold :height 1.3 ))))
    `(org-level-2   ((t (:extend nil :background ,deep-blue :foreground ,light-red :weight bold))))
    `(org-level-3   ((t (:extend nil :background ,deep-blue :foreground ,warning-yellow :weight bold))))
@@ -131,7 +131,7 @@
    `(company-scrollbar-bg          ((,class (:background ,dark-gray2))))
    `(company-preview-common        ((,class (:foreground ,fg :background ,dark-gray2))))
 
-   ;; ;; flycheck faces
+    ;;flycheck faces
    `(flycheck-error ((,class (:foreground ,bright-red :underline t))))
    `(flycheck-warning ((,class :foreground ,pale-yellow :underline t)))
    `(flycheck-info ((,class :foreground ,fg :underline t)))
