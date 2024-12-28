@@ -138,7 +138,28 @@
 
    `(flycheck-fringe-error ((,class (:foreground ,bright-red))))
    `(flycheck-fringe-warning ((,class (:foreground ,pale-yellow))))
-   `(flycheck-fringe-info ((,class (:foreground ,fg))))))
+   `(flycheck-fringe-info ((,class (:foreground ,fg))))
+
+   ;; dashboard
+   `(dashboard-heading ((,class (:foreground ,light-red :weight bold))))
+   `(dashboard-items-face ((,class (:foreground ,fg))))
+   `(dashboard-banner-logo-title ((,class (:foreground ,cyan :weight bold))))
+   `(dashboard-navigator ((,class (:foreground ,warning-yellow))))
+   `(dashboard-footer ((,class (:foreground ,olive-green :weight bold))))
+
+   ;; magit
+   `(magit-section-heading ((,class (:foreground ,cyan :weight bold))))
+   `(magit-section-highlight ((,class (:background ,dark-gray))))
+   `(magit-diff-added ((,class (:foreground ,bright-teal))))
+   `(magit-diff-added-highlight ((,class (:foreground ,bright-teal :background ,dark-gray))))
+   `(magit-diff-removed ((,class (:foreground ,error-red))))
+   `(magit-diff-removed-highlight ((,class (:foreground ,error-red :background ,dark-gray))))
+   `(magit-diff-context ((,class (:foreground ,olive-green))))
+   `(magit-diff-context-highlight ((,class (:foreground ,olive-green :background ,dark-gray))))
+   `(magit-branch-local ((,class (:foreground ,cyan))))
+   `(magit-branch-remote ((,class (:foreground ,bright-teal))))
+   `(magit-hash ((,class (:foreground ,warning-yellow))))
+   `(magit-header-line ((,class (:background ,dark-gray :foreground ,fg :weight bold))))))
 
 ;;;###:autoload
 (when load-file-name
