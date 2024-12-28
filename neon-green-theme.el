@@ -14,8 +14,8 @@
   "Green theme.")
 
 (let* ((class '((class color) (min-colors 89)))
-       (fg             "#5EDC1F")
-       (bg             "#000000")
+       (fg             "#5EDC1F")  ; foreground
+       (bg             "#000000")  ; background
        (error-red      "#FF6F6F")
        (warning-yellow "#FFD700")
        (dark-gray      "#1A1A1D")
